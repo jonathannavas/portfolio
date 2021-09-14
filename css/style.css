@@ -1,0 +1,145 @@
+:root{
+    --first-bg: #0D2534;
+    --second-bg: #003135;
+    --third-bg: #009995;
+    --four-bg: #203D50;
+    --white-bg: #ffffff;
+    --font-color-white: #CECECE;
+}
+
+body{
+    font-family: 'Rokkitt', serif;
+    background-color: var(--first-bg);
+    color: var(--white-bg);
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    margin-top: 25px;
+}
+.logo-img{
+    width: 70px;
+}
+.nav-item{
+    font-size: 1.4rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: var(--white-bg);
+}
+.header-title:hover{
+    color:var(--third-bg);
+}
+
+.img-photo{
+    margin-top: 13%;
+    width: 350px;
+}
+
+.text-title{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    color: var(--third-bg);
+}
+
+.my-title{
+    color: var(--font-color-white);
+    font-size: 1.3rem;
+    margin-top: -30px;
+}
+
+.github-icon{
+    padding-right: 50px;
+}
+
+.btn-first{
+    background-color: var(--second-bg);
+    color: white;
+}
+
+.btn-first:hover{
+    background-color: var(--third-bg);
+    color: var(--font-color-white);
+}
+
+.btn-second{
+    border-color: var(--second-bg);
+    color: var(--white-bg);
+}
+
+.btn-second:hover{
+    background-color: var(--third-bg);
+    color: var(--font-color-white);
+}
+
+.bg-four{
+    background-color: var(--four-bg);
+}
+
+.bg-second{
+    background-color: var(--second-bg);
+}
+
+.wave{
+    width: 100%;
+}
+
+.title-education{
+    font-size: 2.2rem;
+}
+
+.divider-text{
+    width: 25%;
+    height: 2px!important;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--third-bg);
+    opacity: 1;
+}
+
+.card-education{
+
+    padding-left: 25px;
+    margin-left: 35px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left-color: var(--third-bg);
+}
+
+.card-place{
+    color: var(--font-color-white);
+    font-size: 1.4rem;
+}
+
+.card-year{
+    color: var(--white-bg);
+    margin-top: -17px;
+    font-size: 1rem;
+}
+
+.card-study{
+    color: var(--white-bg);
+    margin-top: -17px;
+    font-size: 1.3rem;
+}
+
+.card-about{
+    border: 0;
+}
+
+.card-about div p{
+    font-size: 1.1rem;
+    color: var(--font-color-white);
+}
+
+.card-projects{
+    border: 0;
+}
+
+.icon{
+    width: 25px;
+}
+
