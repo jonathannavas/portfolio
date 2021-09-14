@@ -30,7 +30,7 @@ a{
     color: var(--white-bg);
 }
 .header-title:hover{
-    color:var(--third-bg);
+    color:var(--third-bg)!important;
 }
 
 .img-photo{
@@ -153,5 +153,10 @@ a{
 
 .card:hover{
     box-shadow: 0 0 20px var(--third-bg); 
+}
+
+.img-icons{
+    max-width: 60px;
+    height: 60px;
 }
 
