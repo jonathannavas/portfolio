@@ -74,6 +74,9 @@ a{
     color: var(--font-color-white);
 }
 
+.bg-third{
+    background-color: var(--third-bg);
+}
 .bg-four{
     background-color: var(--four-bg);
 }
@@ -143,3 +146,11 @@ a{
     width: 25px;
 }
 
+.btn-github:hover{
+    background-color: var(--second-bg);
+    box-shadow: 0 0 7px var(--four-bg); 
+}
+
+.card:hover{
+    box-shadow: 0 0 20px var(--third-bg); 
+}
