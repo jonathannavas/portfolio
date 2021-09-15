@@ -172,3 +172,7 @@ a{
 .icon-footer{
     max-width: 35px;
 }
+
+.animate__animated.animate__bounce {
+    --animate-duration: 2s;
+}
