@@ -164,3 +164,11 @@ a{
     max-width: 70%;
     margin-top: 13%;
 }
+
+.footer-section{
+    margin-bottom:-10px;
+}
+
+.icon-footer{
+    max-width: 35px;
+}
