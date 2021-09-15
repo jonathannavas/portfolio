@@ -33,13 +33,17 @@ form.addEventListener('submit', handleSubmit);
 
 function handleSubmit(event){
     event.preventDefault();
+    const button = document.querySelector('.send');
+    button.disabled = true;
     const name = document.querySelector('#name').value;
     const email = document.querySelector('#email').value;
     const message = document.querySelector('#message').value;
 
-    if(name.length>2 && email.length>5 && message.length>1){
+    if(name.length>2 && email.length>5 && message.length>0){
         send();
+        button.disabled = false;
     }else{
+        button.disabled = false;
         Swal.fire({
             position: 'top-end',
             icon: 'error',
