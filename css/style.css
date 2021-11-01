@@ -176,3 +176,7 @@ a{
 .animate__animated.animate__bounce {
     --animate-duration: 2s;
 }
+
+.foto-profile{
+    filter: drop-shadow(5px 5px 5px #203D50);
+}
